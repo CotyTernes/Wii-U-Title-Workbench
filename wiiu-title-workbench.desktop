@@ -1,0 +1,13 @@
+[Desktop Entry]
+# SPDX-License-Identifier: Unlicense
+Type=Application
+Name=Wii U Title Workbench
+GenericName=Wii U Title Conversion Tool
+Comment=Decrypt Wii U titles for Cemu, or convert archives back for the console
+Exec=wiiu-title-workbench
+Icon=applications-games
+Terminal=false
+Categories=Utility;Game;Emulator;
+Keywords=wiiu;cemu;cdecrypt;zarchive;wua;wux;wup;nuspacker;
+StartupNotify=true
+StartupWMClass=wiiu_title_workbench.py
