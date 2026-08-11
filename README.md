@@ -11,6 +11,7 @@ A Qt/KDE front-end for the Wii U title tools, working in both directions.
 With a title catalog loaded it also shows which updates and DLC your library is
 missing.
 
+Created using Claude Opus 5.
 Licensed under [the Unlicense](LICENSE) — public domain, do what you like.
 
 ---
