@@ -1,6 +1,6 @@
 # Wii U Title Workbench
 
-A Qt/KDE front-end for the Wii U title tools, working in both directions.
+A Qt front-end for the Wii U title tools, working in both directions.
 
 - **Decrypt** — encrypted WUP dumps (`title.tmd`, `title.tik`, `*.app`) into
   decrypted `code`/`content`/`meta` folders, optionally packed into `.wua`
@@ -34,7 +34,7 @@ bundled; which you need depends on what you're doing:
 Only CDecrypt is needed to decrypt. Set the paths under **External tools** in the
 app and press **Check both tools** to verify them.
 
-### Arch — CachyOS, EndeavourOS, Manjaro, SteamOS
+### Arch
 
 ```bash
 sudo pacman -S pyside6 zarchive jre-openjdk
@@ -43,7 +43,7 @@ paru -S cdecrypt-git    # any AUR helper; CachyOS ships paru
 
 `zarchive` is in `extra` and includes the CLI binary, so nothing needs building.
 
-### Fedora — also Nobara, Bazzite
+### Fedora
 
 ```bash
 sudo dnf install python3-pyside6 java-latest-openjdk
@@ -52,7 +52,7 @@ sudo dnf install gcc gcc-c++ make cmake git libzstd-devel
 
 No packages for CDecrypt or zarchive — build both, below.
 
-### Debian, Ubuntu — also KDE neon, Mint, Pop!_OS
+### Debian, Ubuntu
 
 ```bash
 sudo apt install python3-pyside6.qtwidgets zarchive-tools default-jre
